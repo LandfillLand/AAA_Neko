@@ -26,10 +26,6 @@
             <n-icon><logo-github /></n-icon>
             官方项目仓库
           </a>
-          <a href="https://cbblover.neo-life.wenturc.com/" target="_blank" class="footer-link">
-            <n-icon><star-outline /></n-icon>
-            侧边展示主站
-          </a>
         </div>
         <div class="links-group">
           <h4>开发相关</h4>
