@@ -17,8 +17,10 @@ export default defineNuxtConfig({
   serverDir: 'src/server',
   modules: ['@pinia/nuxt', 'nuxtjs-naive-ui'],
   css: ['@/assets/theme.css'],
+
   routeRules: {
-    '/sitemap.xml': { swr: 3600 }
+    '/**': { swr: 1800 },
+    '/sitemap.xml': { swr: 1800 }
   },
 
   runtimeConfig: {
@@ -55,6 +57,7 @@ export default defineNuxtConfig({
     future: {
       nativeSWR: true
     },
+
     prerender: {
       routes: ['/robots.txt'] 
     }
